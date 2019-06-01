@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>QuickReply</title>
+		<link rel="shortcut icon" type="image/png" href="/favicon.png"><!-- Favicon -->
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"><!-- Stylesheet -->
+	</head>
+	
+	<body style= "margin:0">
+	
+		<p class="label">Click on the button to copy the text from the text field.</p>
+		
+		<div class="container">
+		<textarea class="CopyText" id="Text1" readonly>Text Here</textarea>
+		<button onclick="myFunction(1)">Copy Text</button>
+		<br>
+		<br>
+		</div>
+
+		<script>
+			function myFunction(area) {
+  				var copyText = document.getElementById("Text"+area);
+ 				copyText.select();
+  				document.execCommand("copy");
+				}
+		</script>
+	</body>
+</html>
