@@ -1,0 +1,60 @@
+.container {
+	margin-bottom: 40px;
+	margin-left: 10px;
+	}
+
+.CopyText {
+	float: left;
+	width: 50%;
+	height: 40px;
+	padding: 10px 20px;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	background-color: #f8f8f8;
+	font-family: Helvetica, Arial, sans-serif;
+	resize: none;
+	}
+
+button {
+	margin-left: 5px;
+	float: left;
+	padding: 15px 15px;
+	border: 2px solid #c6ffc6;
+	border-radius: 10px;
+	background-color: #96ff9f;
+	font-family: Helvetica, Arial, sans-serif;
+	}
+
+.TOC {
+	float: left;
+	border: 2px solid black;
+	width: 100px;
+	height: 250px;
+	margin-left: 20px;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	background: #FFFFFF;
+	}
+
+.label {
+	margin-left: 10px
+	}
+
+.PageLink:link {
+	color: inherit;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+
+.PageLink:visited {
+	color: inherit;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+	
+.PageLink:hover {
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+}
