@@ -1,17 +1,28 @@
 body {
-  margin: 15px;
-  background-color: #d7ffa5;
+  margin: 20px;
+  background-color: #e8ffb8;
 }
 
 h1 {
   font-size: 3em;
-  font-family: arial,sans-serif;
-  color: #428a00;
+  font-family: arial, sans-serif;
+  color: #528a10;
+  }
+
+.ScratchLink:link, .ScratchLink:visited {
+  color: #528a10;
+  text-decoration: none;
+  }
+
+.ScratchLink:hover, .ScratchLink:active {
+  color: #306800;
+  text-decoration: none;
   }
 
 .CopyText {
   height: 60px;
-  width: 40%;
+  width: 50%;
   background-color: #f8fff8;
   border: 2px solid #c8cfc8;
+  pading: 5px 10px;
   }
