@@ -23,6 +23,8 @@ h1 {
   height: 60px;
   width: 50%;
   background-color: #f8fff8;
-  border: 2px solid #c8cfc8;
+  border: 5px solid #c8cfc8;
+  border-radius: 10px 8px;
   pading: 5px 10px;
+  text-align: center;
   }
