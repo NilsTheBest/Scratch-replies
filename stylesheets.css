@@ -1,16 +1,16 @@
 body {
   margin: 20px;
-  background-color: #e8ffb8;
+  background-color: #afffaf;
 }
 
 h1 {
   font-size: 3em;
   font-family: arial, sans-serif;
-  color: #528a10;
+  color: #051905;
 }
 
 .ScratchLink:link, .ScratchLink:visited {
-  color: #528a10;
+  color: #051905;
   text-decoration: none;
 }
 
@@ -20,15 +20,14 @@ h1 {
 }
 
 .CopyText {
-  text-align: center;
-  font-family: Arial, sans-serif;
+  height: 60px;
+  width: 50%;
+  background color: rgb(250, 255, 250);
+  border: 5px solid rgb(240, 245, 240);
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 .container {
-  height: 60px;
-  width: 50%;
-  background color: #f8fff8;
-  border: 5px solid #c8cfc8;
-  border-radius: 15px 10px;
-  padding: 5px 10px;
+  margin: 10px;
 }
