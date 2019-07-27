@@ -7,24 +7,28 @@ h1 {
   font-size: 3em;
   font-family: arial, sans-serif;
   color: #528a10;
-  }
+}
 
 .ScratchLink:link, .ScratchLink:visited {
   color: #528a10;
   text-decoration: none;
-  }
+}
 
 .ScratchLink:hover, .ScratchLink:active {
   color: #306800;
   text-decoration: none;
-  }
+}
 
 .CopyText {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
   height: 60px;
   width: 50%;
-  background-color: #f8fff8;
+  background color: #f8fff8;
   border: 5px solid #c8cfc8;
-  border-radius: 25px 15px;
-  pading: 5px 10px;
-  text-align: center;
-  }
+  border-radius: 15px 10px;
+  padding: 5px 10px;
+}
