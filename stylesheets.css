@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+  margin-left: 20px;
   background-color: #afffaf;
   font-family: arial, sans-serif;
 }
@@ -10,17 +10,20 @@ h1 {
 }
 
 button {
-  height: 40px;
   background-color: #88ea88;
-  color: #051905;
+  color: #253925;
   border: 3px solid #65c765;
   border-radius: 5px;
-  padding: 7px 10px;
+  padding: 15px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .ScratchLink:link, .ScratchLink:visited {
-  color: #051905;
+  color: #152915;
   text-decoration: none;
+  transition-duration: 0.25s;
 }
 
 .ScratchLink:hover, .ScratchLink:active {
@@ -29,12 +32,13 @@ button {
 }
 
 .CopyText {
-  height: 60px;
   width: 50%;
   background color: rgb(250, 255, 250);
   border: 5px solid rgb(240, 245, 240);
   border-radius: 10px;
-  padding: 5px 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
   resize: none;
 }
 
