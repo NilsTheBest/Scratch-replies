@@ -9,7 +9,7 @@ h1 {
   color: #051905;
 }
 
-button 
+button {
   background-color: #88ea88;
   color: #253925;
   border: 3px solid #65c765;
@@ -23,7 +23,6 @@ button
 .ScratchLink:link, .ScratchLink:visited {
   color: #152915;
   text-decoration: none;
-  transition-duration: 0.25s;
 }
 
 .ScratchLink:hover, .ScratchLink:active {
