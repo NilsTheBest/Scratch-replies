@@ -9,7 +9,7 @@ h1 {
   color: #051905;
 }
 
-button {
+button 
   background-color: #88ea88;
   color: #253925;
   border: 3px solid #65c765;
@@ -32,6 +32,7 @@ button {
 }
 
 .CopyText {
+  font-family: Arial, sans-serif;
   width: 50%;
   background color: rgb(250, 255, 250);
   border: 5px solid rgb(240, 245, 240);
@@ -39,6 +40,7 @@ button {
   padding-top: 10px;
   padding-left: 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
   resize: none;
 }
 
